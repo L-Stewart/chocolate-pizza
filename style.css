@@ -5,6 +5,7 @@ body {
 
 header {
     height: 45px;
+    margin: 40px 0px 40px 0px;
 }
 
 #header-left {
@@ -23,7 +24,6 @@ header {
 #header-left li:first-child{
     font-family: 'Yellowtail', cursive;
     font-size: 40px;
-    font-weight: bold;
     line-height: 80%;
 }
 
@@ -35,8 +35,73 @@ header {
 
 #header-right {
     float: right;
+    height: 28px;
+    padding: 8px;
 }
 
-header hr{
-    
+#header-right *{
+    list-style: none;
+    display: inline-block;
+}
+
+#header-right ul{
+    padding: 5px;
+}
+
+main hr{
+    display: block;
+    height: 15px;
+    width: 960px;
+}
+
+main hr:first-child{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#article-title li{
+    float: right;
+    list-style: none;
+    font-family: 'Strait', sans-serif;
+    color: #888;
+    font-size: 14px;
+    line-height: 200%;
+}
+
+#article-title li:first-child{
+    float: left;
+}
+
+#page-image{
+    width: 960px;
+    height: auto;
+    margin: 25px 0px 30px 0px;
+}
+
+p{
+    font-family: 'Noto Serif', serif;
+    color: #333;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+article > p{
+    text-indent: 25px;
+    padding-bottom: 30px;
+}
+
+#ingredients{
+    background-image: url(img/list-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    column-count: 2;
+    padding: 50px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
 }

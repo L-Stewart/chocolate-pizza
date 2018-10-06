@@ -1,6 +1,7 @@
 body {
     width: 960px;
     margin: auto;
+    font-family: 'Noto Serif', serif;
 }
 
 header {
@@ -101,7 +102,7 @@ article > p{
     background-repeat: no-repeat;
     background-size: 960px;
     height: 305px;
-    padding: 40px 100px;
+    padding: 40px 100px 10px 100px;
     column-count: 2;
     font-family: 'Patrick Hand', cursive;
     font-size: 24px;
@@ -111,4 +112,34 @@ article > p{
 
 #ingredients li{
     list-style: square outside none;
+}
+
+#contributor img{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#contributor h4{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 200%;
+}
+
+#contributor button{
+    float: right;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: #a55;
+    color: white;
+    font-family: 'Strait', sans-serif;
+    font-size: 18px;
+    margin: 10px 0px 0px 30px;
+}
+
+#footer-logo:after{
+    display: inline-block;
+    position: relative;
+    background: #fff url(img/small-logo.png) no-repeat scroll center;
 }

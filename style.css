@@ -97,11 +97,18 @@ article > p{
 
 #ingredients{
     background-image: url(img/list-bg.png);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 960px;
+    height: 305px;
+    padding: 40px 100px;
     column-count: 2;
-    padding: 50px;
     font-family: 'Patrick Hand', cursive;
-    font-size: 22px;
+    font-size: 24px;
+    color: #333;
+    line-height: 33px;
+}
+
+#ingredients li{
+    list-style: square outside none;
 }
